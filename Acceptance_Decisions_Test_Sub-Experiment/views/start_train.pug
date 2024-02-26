@@ -1,0 +1,33 @@
+doctype html 
+html 
+    link(rel='preconnect' href='https://fonts.gstatic.com')
+    link(href='https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap' rel='stylesheet')   
+   
+    head
+        link(rel='icon', href='./public/images/icons/it_logo.png')
+        title Face Verification Explainability Performance Subjective Assessment
+        style
+           include style.css
+  
+    body(style='display:flex;  flex-direction: column; justify-content: space-evenly;  height: 98vh; rowbackground-color: #F8F8FF')
+    
+        div(class='TitleBox', id='STtitlebox')
+            h1(style='text-align: center; font-size: 2.0em; margin-top: 3px;') Explainability Performance of Acceptance Face Verification Decisions 
+        div(class='InstBox', id='StartTraininstbox')
+            h2(style='font-size: 2.5em; margin:0.4em')
+                image(src='./public/images/icons/icon_test.svg', name='icon_test', style='vertical-align: middle; width: 80px; height:auto; margin:0; margin-right: 10px; padding:0')
+                    | Start Training Session
+            div(style='margin-left: 30px; margin-right: 30px; font-size: 1.6em;')
+                p(style='margin-block: 0.5em 0; text-align: justify; text-justify: inter-word;')
+                | By clicking on the button below, you are going to start a 
+                strong training session.
+                | &nbsp; The purpose of the training session is to familiarize you with the test task and environment. Your preferences 
+                strong will not be collected 
+                |during the training session.
+
+
+          
+
+        div(style = 'display: block; text-align: center; margin-bottom:20px')
+            form(action='/start_train' method='POST', id='StartTrain')
+                button.Button(type='submit', style='width: 280px; font-size: 1.5em; margin-top: 50px ') Start Training Session

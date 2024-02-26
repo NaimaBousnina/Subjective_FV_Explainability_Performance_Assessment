@@ -1,0 +1,72 @@
+doctype html 
+html 
+    link(rel='preconnect' href='https://fonts.gstatic.com')
+    link(href='https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap' rel='stylesheet')   
+   
+    head
+        link(rel='icon', href='./public/images/icons/it_logo.png')
+        title Face Verification Explainability Performance Subjective Assessment
+        style
+           include style.css
+  
+    body(style='display:flex;  flex-direction: column; justify-content: space-evenly;  height: 98vh; rowbackground-color: #F8F8FF')
+    
+        div(class='TitleBox', id='RegTitleBox')
+            h1(style='text-align: center; font-size: 2.0em;') Explainability Performance of Acceptance Face Verification Decisions 
+    
+        div(class='InstBox')
+            h2(style='font-size: 2em; margin:0.3em')
+                image(src='./public/images/icons/info_icon.svg', name='info_icon', style='vertical-align: middle; width: 60px; height:auto; margin:0; margin-right: 10px; padding:0; border: 2px solid #555') Instructions
+            div(style='margin-left: 30px; margin-right: 30px; font-size: 1.5em;')
+                p(style='margin-block: 0.5em 0; text-align: justify; text-justify: inter-word;')
+                |After entering the user information required below, you will start the  
+                strong test session
+                |, where your preferences will be collected.
+                p(style='margin-block: 0.5em 0; text-align: justify; text-justify: inter-word;') 
+   
+        form(name='userForm', method="POST", action="/start", id = 'form', autocomplet='off',required)
+            div(class='RegistBox', style='padding-bottom: 20px', id='box_form')
+                h2(style='font-size: 2em; margin:0.3em;') 
+                    image(src='./public/images/icons/user_icon_add.png', name='user_icon1', style='vertical-align: middle; width: 50px; height:auto; margin:0; margin-right: 20px; padding:0; border: 2px solid #555') User Information
+
+                div(style = 'margin-left: 30px; font-size: 1.4em; display:flex; flex-direction: row; flex-wrap:wrap; justify-content:space-evenly; align-items: baseline ;')
+                    div(style = 'display: inline-block; align-content: center')
+                        | Name:
+                        input(type='text', name='name', value='', autocomplete="off", required)
+                    div(style = 'display: inline-block; align-content: center')
+                        | Email: 
+                        input(type="email", name='email', value='', autocomplete='off', required)
+                    div(style = 'display: inline-block; align-content: center')
+                        | Age: 
+                        input(type='number', name='age', value='', min="10", max="100", required)
+                    div(style = 'display: flex; flex-direction:row; flex-wrap:wrap; align-content: baseline')
+                        | Gender: 
+                        input#male(type='radio', name='gender', value='male', required)
+                        | Male
+                        input#female(type='radio', name='gender', value='female')
+                        | Female
+                    div(style = 'display: inline-block; align-content: center')
+                        | Display 
+                        small [in]
+                        | :
+                        input(type='number', name='display', value='', min="13", max="100", required)
+            div(style = 'display: inline-block; align-content: center; margin-top:60px; margin-left: 820px')
+                button.Button(id="start_button",type="submit") Start
+
+
+
+    script.
+        if(screen.width < 1920 || screen.height < 1080){
+            alert("To take part in this test you need a display resolution of at least: 1920x1080.\nCurrently your resolution is "+ screen.width+ "x"+ screen.height+".");
+            document.getElementById("start_button").disabled = true;
+        }
+        if(screen.width >= 1920 && screen.height >= 1080)
+            document.getElementById("start_button").disabled = false;
+            
+        var res = [screen.width, screen.height];
+        var f = document.getElementById('form');
+        i = document.createElement("Input");
+        i.setAttribute("type", "hidden");
+        i.setAttribute("value", res);
+        i.setAttribute("name", "resolution")
+        f.appendChild(i);
