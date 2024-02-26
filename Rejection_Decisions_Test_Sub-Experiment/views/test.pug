@@ -1,0 +1,93 @@
+doctype html
+html
+    link(rel='preconnect' href='https://fonts.gstatic.com')
+    link(href='https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap' rel='stylesheet')  
+    head
+        link(rel='icon', href='./public/images/icons/it_logo.png')
+        title Face Verification Explainability Performance Subjective Assessment
+    style
+        include style.css
+    body(style='margin: 0; background-color: #ececec; display:flex; flex-direction: column; justify-content: space-evenly;  height: 100vh;')
+    - var onOver_R = "imgR.className='img-go'"   
+    - var onOver_L = "imgL.className='img-go'"
+    - var onOver_M = "imgL.className='img-go'; imgR.className='img-go'"
+    - var onOut_L = "imgL.className='' "
+    - var onOut_R = "imgR.className='' "
+    - var onOut_M = "imgL.className='' ; imgR.className=''"
+
+    div(class='question')
+        div(class='TestSplitLeft')
+            div(class='top')
+                span1 #{current+1}/#{nPairs}
+        
+                p(style='margin-top: 115px; font-size: 1.2em')
+                p1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Probe Image
+                p2 Gallery Image
+            
+                #testimages
+                    img.testfaceImgs(src=Probe_img, alt='A', name='0', id='imgL', style='height:420px; width: 410px; margin-left:60px;')
+                    img.testfaceImgs(src= Gallery_img, alt='B', name='1', id='imgR', style='height:420px; width: 410px;')
+                
+            div(class='down', style='margin-top: 380px; font-size: 1.1em; margin-left:55px; ')
+                strong &nbsp; &nbsp;   Which of the explainability maps better highlights the face regions more important for the decision that the two face images are from two different persons, although this decision may be correct or not?
+
+        div(class='TestSplitRight', style='margin-left: 40px; margin-right: 0px; font-size: 1.0em;')
+            
+            div(class='TopDivision', style='margin-left: -70px;')
+        
+            form(action='/test' method='POST')
+               div(class='bottomDivision')
+                    div(class='div1')
+                        div(class='div1_1', style='float:left;')
+                            img.testfaceHM(src=First_HM, alt='A', name='0', id='imgL', style='height:490px; margin-left: 120px; width: 77%; margin-top: 60px;')
+                        div(class='div1_2', style='float:right; margin-right:50px; margin-top:-270px; font-size: 1.2em; ')
+                            |Explainability Map 
+                            p(style='margin-top: -30px;')
+                            | A
+                    div(class='div2')
+                        div(class='div2_1', style='float:left;')
+                            img.testfaceHM(src= Second_HM, alt='B', name='1', id='imgR', style='height:490px; margin-left:120px; width: 77%; margin-top: 60px;')
+                        div(class='div2_2', style='float:right; margin-right:50px; margin-top:-270px; font-size: 1.2em;')
+                            |Explainability Map 
+                            p(style='margin-top: -30px;')
+                            | B
+                    div(class='div3')
+                       
+                        p(style='margin-bottom: -0px')
+                            button.btn-test(style='margin: 120px auto auto -220px;', type="submit", name="value", value=1, id='A') 
+                                b A
+                                |&nbsp;better than 
+                                b B
+                            button.middle-btn-test(style='margin: 120px auto auto 20px;', type="submit", name="value", value=0, id='AB') 
+                                b A 
+                                |and 
+                                b B 
+                                |equivalent
+                            button.btn-test(style='margin: 120px auto auto 20px;', type="submit", name="value", value=2, id='B') 
+                                b B 
+                                |&nbsp;better than 
+                                b A
+        
+ 
+    
+    script.
+        //- document.addEventListener("keydown", function onEvent(event){
+        //- if (event.key === "ArrowLeft") {
+        //- document.getElementById("A").click();
+        //- }
+        //- if (event.key === "ArrowDown") {
+        //- document.getElementById("AB").click();
+        //- }
+        //- if(event.key === "ArrowRight"){
+        //- document.getElementById("B").click();
+        //- }});
+
+        // window.onload = function(){ 
+        //        if( window.innerHeight != screen.height) {
+        //            alert('For better experience, go to full screen mode by pressing F11 on your keyboard.')
+        //            }
+        //}
+    
+
+
+        

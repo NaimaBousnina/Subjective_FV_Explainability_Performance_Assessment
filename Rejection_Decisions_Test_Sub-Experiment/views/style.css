@@ -1,0 +1,589 @@
+.TitleBox{
+    background:#b9eaff; 
+    padding: 10px; 
+    margin-bottom: 40px; 
+    margin-top: -20px; 
+    margin-left: 300px; 
+    margin-right: 300px; 
+    box-shadow: 15px 15px #009de0;
+    height: 80px;
+}
+
+.TitleBoxEnd{
+    background:#b9eaff; 
+    padding: 10px; 
+    margin-bottom: 40px; 
+    margin-top: -20px; 
+    margin-left: 300px; 
+    margin-right: 300px; 
+    box-shadow: 15px 15px #009de0;
+    height: 80px;;
+}
+
+.IndexTitleBox{
+    background:#b9eaff; 
+    padding: 10px; 
+    margin-bottom: 40px; 
+    margin-top: -15px; 
+    margin-left: 300px; 
+    margin-right: 300px; 
+    box-shadow: 15px 15px #009de0;
+    height: 60px;;
+}
+.InstBox{
+    background: #b9eaff; 
+    padding: 10px; 
+    margin-bottom: 30px; 
+    margin-top: 40px; 
+    margin-left: 5px; 
+    margin-right: 15px;
+    box-shadow: 15px 15px #009de0; 
+}
+
+.StarTestInstBox{
+    background: #b9eaff; 
+    padding: 10px; 
+    margin-bottom: -200px; 
+    margin-top: -10px; 
+    margin-left: 5px; 
+    margin-right: 15px;
+    box-shadow: 15px 15px #009de0; 
+}
+
+.EndInstBox{
+    background: #b9eaff; 
+    padding: 10px; 
+    margin-bottom: -250px; 
+    margin-top: 250px; 
+    margin-left: 5px; 
+    margin-right: 15px;
+    box-shadow: 15px 15px #009de0; 
+}
+
+
+.Interface{
+    display: block;
+    width: 44%;
+    margin-top: -5px; 
+    margin-bottom: -3px; 
+    margin-left: auto;
+    margin-right: auto;
+} 
+.fblogo {
+    display: inline-block;
+    margin-left: -100px;
+    margin-top: -5px; 
+    width: 20%;
+    height: 440px;
+}
+
+.hue{
+    display: inline-block;
+    margin-left: 250px;
+    margin-top: -10px; 
+    width: 100px;
+    height: 410px;
+}
+
+.InstBoxIndex1{
+    background: #b9eaff; 
+    padding: 10px; 
+    margin-bottom: 3px; 
+    margin-left: 5px; 
+    margin-right: 15px;
+    box-shadow: 15px 15px #009de0; 
+    margin-top: 15px;
+}
+
+.TitleBoxIndex1{
+    background:#b9eaff; 
+    padding: 10px; 
+    margin-left: 300px; 
+    margin-right: 300px; 
+    box-shadow: 15px 15px #009de0;
+    height: 60px;
+}
+.ButtonForm{
+    text-align: center;  
+    margin-top: 5px; 
+    margin-bottom: -10px; 
+    font-size: 1.0em; 
+}
+
+.ButtonFormIndex1{
+    text-align: center;  
+    margin-top: -10px; 
+    font-size: 1.0em; 
+    margin-top: -20px;
+    margin-bottom: -32px;
+}
+.ButtonIndex1{
+    display: inline-block;
+    padding: 10px;
+    color: #000;
+    font-size: 1.6em;
+    margin: 0 auto;
+    background: #C0C0C0;
+    text-align: center;
+    width: 130px;
+    border: 1px solid #808080;
+    border-width: 0px 0px 3px;
+    margin-bottom: -150px;
+    border-radius: 12px;
+    height: 55px;
+}
+
+.ButtonIndex1:hover{
+    background: #b9eaff;
+    border: 1px solid #009de0;
+    border-width: 0px 0px 3px;
+}
+.Button{
+    display: inline-block;
+    padding: 10px;
+    color: #000;
+    margin: 0 auto;
+    background: #C0C0C0;
+    font-size: 1.6em;
+    text-align: center;
+    width: 240px;
+    border: 1px solid #808080;
+    border-width: 0px 0px 3px;
+    border-radius: 12px;
+    height: 55px;
+}
+
+.Button:hover{
+    background: #b9eaff;
+    border: 1px solid #009de0;
+    border-width: 0px 0px 3px;
+}
+
+.ButtonTrain{
+    display: inline-block;
+    padding: 10px;
+    color: #000;
+    margin: 0 auto;
+    background: #b9eaff;
+    font-size: 1.2em;
+    text-align: center;
+    width: 210px;
+    border: 1px solid #009de0;
+    border-width: 0px 0px 3px;
+    border-radius: 12px;
+}
+
+.ButtonTrain:hover{
+    background: #C0C0C0;
+    border: 1px solid #808080;
+    border-width: 0px 0px 3px;
+}
+
+
+.ButtonIndex{
+    display: inline-block;
+    padding: 10px;
+    color: #000;
+    margin: 0 auto;
+    background: #C0C0C0;
+    font-size: 1.6em;
+    text-align: center;
+    width: 130px;
+    border: 1px solid #808080;
+    border-width: 0px 0px 3px;
+    margin-bottom: -5px;
+    border-radius: 12px;
+    height: 55px;
+}
+
+.ButtonIndex:hover{
+    background: #b9eaff;
+    border: 1px solid #009de0;
+    border-width: 0px 0px 3px;
+}
+
+.ButtonFullScreen{
+    display: inline-block;
+    padding: 10px;
+    color: #000;
+    margin: 0 auto;
+    background: #b9eaff;
+    font-size: 1.0em;
+    text-align: center;
+    width: 200px;
+    border: 1px solid #009de0;
+    border-width: 0px 0px 3px;
+    margin-bottom: -5px;
+    border-radius: 12px;
+    height: 70px;
+}
+
+.ButtonFullScreen:hover{
+    background: #b9eaff;
+    border: 1px solid #009de0;
+    border-width: 0px 0px 3px;
+}
+
+#titlebox{
+    margin-top: -30px;
+}
+
+/*background:#b9eaff; 
+padding: 10px; 
+margin-bottom: 110px; 
+margin-top: -120px; 
+margin-left: 300px; 
+margin-right: 300px; 
+box-shadow: 15px 15px #009de0;*/
+
+
+#STtitlebox{
+    margin-top: -320px;
+    height: 60px;
+    margin-bottom: 100px;
+}
+
+#STesttitlebox{
+    margin-top: -230px;
+} 
+#StartTraininstbox{
+    margin-bottom: -280px;
+}
+
+#SPTtitlebox{
+    margin-top: -195px;
+    margin-bottom: 100px;
+}
+
+#SNTtitlebox{
+    margin-top: -210px;
+    margin-bottom: 100px;
+}
+
+#RegTitleBox{
+    margin-top: -140px;
+    margin-bottom: 60px;
+}
+
+.RegistBox{
+    background: #b9eaff; 
+    padding: 10px; 
+    margin-bottom: 30px; 
+    margin-top: -20px; 
+    margin-left: 5px; 
+    margin-right: 15px;
+    height: 150px;
+    box-shadow: 15px 15px #009de0; 
+}
+
+.question{
+    font-size: 30px;
+    text-align:center;
+    font-size: 1.8em;
+    height: 100%;
+}
+
+.testfaceImgs{
+    display: inline-block;
+    column-gap: 30px;
+    margin-left: -30px;
+    margin-right: 50px;
+    margin-bottom: -300px;
+    width: 43%;
+}
+
+.testfaceHM{
+    margin-left: 40px;
+    margin-right: 40px;    
+    width: 70%;
+}
+
+.faceImgs{
+    display: inline-block;
+    column-gap: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -10px; 
+    width: 43%;
+}
+
+#images{
+    text-align:center;
+    align-content: center;
+}
+
+#TrainImages{
+    text-align:center;
+    align-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: -50px;
+    width: 120%;
+    height: 120%;
+}
+#heatmaps{
+    text-align:center;
+    align-content: center;
+    margin-top: -10px;
+    margin-left: -50px;
+    margin-bottom: -10px;
+    width: 120%;
+    height: 120%;
+}
+
+#buttons{
+    display: inline-block;
+    align-self: center;
+}
+
+#StartTraininstbox{
+    margin-top: -100px;
+    margin-bottom: -284px;
+}
+
+#StartTrain{
+    margin-top: 15px;
+}
+span{
+    color: 	#FF0000;
+    font-weight: bold;
+    font-size: 1.0em;
+    margin-top: -10px;
+    text-decoration: underline;
+}
+span2{
+    color: 	#FF0000;
+    font-weight: bold;
+}
+
+span_train{
+    color: 	#FF0000;
+    font-weight: bold;
+    font-size: 1.0em;
+    margin-top: -10px;
+}
+
+reminder{
+    color: 	#FF0000;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+
+.split{
+    float: left;
+    width: 40%;
+}
+
+.TestSplitLeft{
+    float: left;
+    width: 50%;
+    /*background-color: #f4fffd;*/
+}
+
+.TestSplitRight{
+    float: right;
+    width: 50%;
+}
+
+.bottomDivision{
+    display: grid;
+}
+
+.div1{
+    margin-top: -920px;
+    height: 380px;
+}
+
+.div2{
+    margin-top: -420px;
+    margin-bottom: 25px;
+    height: 380px;
+}
+
+/*.vl {
+    border-left: 1.5px solid #D3D3D3;
+    height: 948px;
+    position:absolute;
+    left: 46%;
+}*/
+
+p1{
+    margin: -15px auto auto -70px; 
+    font-size: 1.1em;
+}
+
+p2{
+    margin: auto auto auto 240px; 
+    font-size: 1.1em;
+}
+
+.TopDivision{
+    float: center;
+    margin-top: -395px;
+    margin-bottom: 360px;
+}
+  
+  /* Clear floats after the columns */
+.MainDivision:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    background-color: #f4fffd;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    border-radius: 100%;
+    margin:0px;
+    margin-right: 10px;
+    margin-left: 30px;
+    align-self: center;
+}
+
+input[type="radio"]:checked {
+    background-color: #009de0;
+}
+
+input[type="radio"]:checked::after{
+    display: block;
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #f4fffd;
+    top: 7px;
+    left: 7px;
+}
+[type="radio"]:focus {
+    outline: none;
+}
+[type="radio"]:hover{
+    background-color: #fff;
+}
+
+body{
+    font-family: Titillium Web, sans-serif; 
+}
+
+input[type=text] {
+    width: 250px;
+    padding: 3px 10px;
+    margin: 0;
+    margin-left: 10px;
+    resize: vertical;
+    font-size: 0.8em;
+    background-color: #f4fffd;
+    border: 0px;
+    font-family:inherit;
+}
+input[type=email] {
+    width: 250px;
+    padding: 3px 10px;
+    margin: 0;
+    margin-left: 10px;
+    resize: vertical;
+    font-size: 0.8em;
+    background-color: #f4fffd;
+    border: 0px;
+    font-family:inherit;
+}
+
+input[type=number] {
+    width: 70px;
+    padding: 3px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+    resize: vertical;
+    font-size: 0.8em;
+    background-color: #f4fffd;
+    border: 0px;
+    font-family:inherit;
+}
+
+input[type=text]:hover, input[type=email]:hover, input[type=number]:hover {
+    border-bottom: 3px solid #009de0;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=number]:focus {
+    outline:none !important;
+    border-bottom: 3px solid #006794;
+}
+
+.btn-test{
+    display: inline-block;
+    padding: 10px;
+    color: #000;
+    background: #b9eaff;
+    font-size: 0.8em;
+    text-align: center;
+    width: 200px;
+    border: 1px solid #009de0;
+    border-width: 0px 0px 3px;
+    border-radius: 12px;
+    
+}
+.btn-test:hover{
+    background: #C0C0C0;
+    border: 1px solid #808080;
+    border-width: 0px 0px 3px;
+}
+
+.btn-test:focus {
+    outline: none;
+}
+
+
+#end{
+    margin-top: -630px;
+    margin-bottom: -300px;
+}
+
+span1{
+    border: 2px solid #000;
+    font-weight: bold;
+    font-size: 0.6em;
+    margin-left: -850px;
+    margin-top: -300px;
+}
+
+.middle-btn-test{
+    display: inline-block;
+    padding: 10px;
+    color: #000;
+    background:  #b9eaff;
+    font-size: 0.8em;
+    text-align: center;
+    width: 250px;
+    border: 1px solid #009de0;
+    border-width: 0px 0px 3px;
+    border-radius: 12px;
+}
+.middle-btn-test:hover{
+    background:  #C0C0C0;
+    border: 1px solid #808080;
+    border-width: 0px 0px 3px;
+}
+
+.middle-btn-test:focus {
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}

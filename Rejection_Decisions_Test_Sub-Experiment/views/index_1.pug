@@ -1,0 +1,72 @@
+doctype html 
+html 
+    link(rel='preconnect' href='https://fonts.gstatic.com')
+    link(href='https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap' rel='stylesheet')   
+   
+    head
+        link(rel='icon', href='./public/images/icons/it_logo.png')
+        title Face Verification Explainability Performance Subjective Assessment
+        style
+           include style.css
+  
+    body(style='display:flex;  flex-direction: column; justify-content: space-evenly;  height: 98vh; rowbackground-color: #F8F8FF')
+    
+        div(class='TitleBoxIndex1', id='titlebox', style='margin-top: -44px; ')
+            h1(style='text-align: center; font-size: 2.0em; margin-top: 5px;') Explainability Performance of Rejection Face Verification Decisions 
+    
+        div(class='InstBoxIndex1')
+            h2(style='font-size: 2em; margin:0.3em')
+                image(src='./public/images/icons/info_icon.svg', name='info_icon', style='vertical-align: middle; width: 60px; height:auto; margin:0; margin-right: 10px; padding:0; border: 2px solid #555') Instructions
+            div(style='margin-left: 30px; margin-right: 30px; font-size: 1.5em;')
+                p(style='margin-block-end: 0;')
+                span2 In this session, the explainability tools are expected to highlight the face regions considered
+                span2  more important to reach a rejection face verification decision , i.e. it is decided that the two faces 
+                span2 are from different persons although they may be or not, by producing an explainability map. 
+                span2 Keep in mind that the full square image, including the background, is processed by the face 
+                span2 verification system as "face image".
+                
+                p(style='margin-block-end: 0;')
+                |Your task is to assess the two explainability maps in terms of explaining a rejection face verification 
+                |decision by selecting from
+                strong &nbsp;”A better than B”, 
+                strong ”A and B equivalent”, 
+                |or 
+                strong ”B better than A” (see the inteface at the left of the screen). 
+                strong ”A and B equivalent” 
+                |may mean that the explainability maps are equally good or equally poor. The explainability maps 
+                strong A 
+                |and 
+                strong B 
+                |do not always correspond to the same explainability tools.
+
+                p(style='margin-block-end: 0;')
+                |The color code used in the explainability maps ranges from red, meaning 
+                strong 'very important'
+                |, to purple, meaning 
+                strong 'not so important' (see scale at the right of the screen).
+
+              
+        #images
+            img.fblogo(border='0', src='./public/images/icons/Interface_1.png', style='width: 40%; border: 2px solid #555;')
+            img.hue(border='0', src='./public/images/icons/hue.png', style='border: 2px solid #555;  border-radius: 10px 10px 10px 10px;')
+
+    
+    div(class='ButtonFormIndex1')
+        form(name='NextButtonform', method="POST", action="/Next2", id = 'form', autocomplet='off',required)
+                button.ButtonIndex1(id='NextButton',type="submit") Next
+
+    script.
+        if(screen.width < 1920 || screen.height < 1080){
+            alert("To take part in this test you need a display resolution of at least: 1920x1080.\nCurrently your resolution is "+ screen.width+ "x"+ screen.height+".");
+            document.getElementById("start_button").disabled = true;
+        }
+        if(screen.width >= 1920 && screen.height >= 1080)
+            document.getElementById("start_button").disabled = false;
+            
+        var res = [screen.width, screen.height];
+        var f = document.getElementById('form');
+        i = document.createElement("Input");
+        i.setAttribute("type", "hidden");
+        i.setAttribute("value", res);
+        i.setAttribute("name", "resolution")
+        f.appendChild(i);
