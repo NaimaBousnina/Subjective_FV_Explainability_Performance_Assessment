@@ -1,0 +1,4 @@
+id.int32(),Probe.string(),Gallery.string(),HM1.string(),HM2.string(),res.boolean()
+0,Probe_1.png,Gallery_1.png,HM1_1.png,HM2_1.png,1
+1,Probe_2.jpg,Gallery_2.jpg,HM1_2.png,HM2_2.png,0
+2,Probe_3.png,Gallery_3.png,HM1_3.png,HM2_3.png,1
