@@ -4,10 +4,16 @@
 
 <table>
 
- ## 1. Introduction
+ ## Introduction
 This repository contains the source code and data of the software application built to validate the efficacy of a subjective explainability performance assessment protocol for visual explanations-based face verification explainability. The proposed protocol encompasses a set of key specifications designed to efficiently collect the subjects’ preferences and estimate explainability performance scores, facilitating the relative assessment of the explainability tools generating visual explanations. This protocol aims to address the current gap in evaluating the effectiveness of visual explanation-based FV explainability tools, providing a structured approach for assessing their performance and comparing with alternative tools. 
 
- ## 2. Requirements
+ ## Requirements
+ To run this software application, make sure you install:
+
+ - Node.js JavaScript runtime environment [Node.js Download](https://nodejs.org/en/)
+ - MongoDB database management program [MongoDB database Download](https://www.mongodb.com/docs/manual/administration/install-community/)
+
+ 
 - Install Python 3.x
 
      `$ sudo apt-get update` \
