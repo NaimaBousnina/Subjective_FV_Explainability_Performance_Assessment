@@ -1,7 +1,7 @@
 <table><td align="center" width="9999">
 
   <h1 align="center"> Subjective Explainability Performance Assessment Protocol: Software Application </h1>
-  This sub-repository contains the source code for the FV-RISE explainability approach [A RISE based explainability method for genuine and impostor face verification](https://www.it.pt/Publications/DownloadPaperConference/40796) developed by IT and presented at the 23rd International Conference of the Biometrics Special Interest Group (BIOSIG 2023).
+  This repository contains the source code and data of a software application used to validate the efficacy of a subjective explainability performance assessment protocol for visual explanations-based face verification explainability. The proposed protocol encompasses a set of key specifications designed to efficiently collect the subjects’ preferences and estimate explainability performance scores, facilitating the relative assessment of the explainability tools. This protocol aims to address the current gap in evaluating the effectiveness of visual explanation-based FV explain-ability tools, providing a structured approach for assessing their performance and comparing with alternative tools. 
 
 
   
