@@ -10,8 +10,13 @@ This repository contains the source code and data of the software application bu
  ## Requirements
  To run this software application, make sure you install:
 
- - Node.js JavaScript runtime environment [Node.js Download](https://nodejs.org/en/)
- - MongoDB database management program [MongoDB database Download](https://www.mongodb.com/docs/manual/administration/install-community/)
+ - Node.js JavaScript runtime environment: [Node.js Download](https://nodejs.org/en/)
+ - MongoDB database management program: [MongoDB database Download](https://www.mongodb.com/docs/manual/administration/install-community/)
+ - Apache2 web server [Optional] (if the software application will run online): [Apache2 Download](https://httpd.apache.org/)
+   You can refer to [How to Host a Node.js Website With Apache on Ubuntu](https://linuxnightly.com/how-to-host-a-node-js-website-with-apache-on-ubuntu/?utm_content=cmp-true) to host the software application in 
+   Apache2 web server, 
+
+   
 
  
 - Install Python 3.x
