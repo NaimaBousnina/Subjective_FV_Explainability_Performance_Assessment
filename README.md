@@ -36,7 +36,7 @@ This repository contains the software application built to validate the efficacy
       #### - In localhost:
      
      - Start a mongosh session: `mongosh`
-     - Initiate the web server: `sudo node app.js`
+     - Initiate the application: `sudo node app.js`
 
      #### -In Apache2 web server: 
    
@@ -57,7 +57,7 @@ This repository contains the software application built to validate the efficacy
       #### - In localhost:
      
      - Start a mongosh session: `mongosh`
-     - Initiate the web server: `sudo node app.js`
+     - Initiate the application: `sudo node app.js`
 
      #### -In Apache2 web server: 
    
