@@ -5,7 +5,7 @@
 <table>
 
  ## Introduction
-This repository contains the source code and data of the software application built to validate the efficacy of a subjective explainability performance assessment protocol for visual explanations-based face verification explainability. The proposed protocol encompasses a set of key specifications designed to efficiently collect the subjects’ preferences and estimate explainability performance scores, facilitating the relative assessment of the explainability tools generating visual explanations. This protocol aims to address the current gap in evaluating the effectiveness of visual explanation-based FV explainability tools, providing a structured approach for assessing their performance and comparing with alternative tools. 
+This repository contains the software application built to validate the efficacy of a subjective explainability performance assessment protocol for visual explanations-based face verification explainability. The proposed protocol encompasses a set of key specifications designed to efficiently collect the subjects’ preferences and estimate explainability performance scores, facilitating the relative assessment of the explainability tools generating visual explanations. This protocol aims to address the current gap in evaluating the effectiveness of visual explanation-based FV explainability tools, providing a structured approach for assessing their performance and comparing with alternative tools. 
 
  ## Requirements
  To run this software application, make sure you install:
@@ -15,23 +15,15 @@ This repository contains the source code and data of the software application bu
  - Apache2 web server [Optional] (if the software application will run online): [Apache2 Download](https://httpd.apache.org/)
 
     You can refer to [How to Host a Node.js Website With Apache on Ubuntu](https://linuxnightly.com/how-to-host-a-node-js-website-with-apache-on-ubuntu/?utm_content=cmp-true) to host the software application in 
-   Apache2 web server, 
+   Apache2 web server.
 
+   ## Run the software application
+
+   This repository includes the source code and data to run the software application for both acceptance (True Acceptance and False acceptance) and rejection (True Rejection and False Rejection) face veriofication decions, notably:
+- [Acceptance Decisions Test Sub-Experiment](https://httpd.apache.org/)
+- [Rejection Decisions Test Sub-Experiment](https://httpd.apache.org/)
+   
    
 
- 
-- Install Python 3.x
 
-     `$ sudo apt-get update` \
-     `$ sudo apt-get install python3.x`
-     
-- Install cuda toolkit
-
-     For cuda Toolkit instalation, please refer to [CUDA Toolkit Download](https://developer.nvidia.com/cuda-toolkit-archive).
-  
-- Install PyTorch >= 1.6
-   
-     For PyTorch installation, please refer to [PyTorch Installation](https://gitlab.eurecom.fr/xaiface_project/xaiface_private/xaiface_face_recognition_pipelines/-/blob/master/Face_processing_tools/Recognition/ArcFace/Pytorch_install.md?ref_type=heads).
-
-- Install `tensorboard`, `easydict`, `sklearn`.
 
