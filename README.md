@@ -24,7 +24,7 @@ This repository contains the software application built to validate the efficacy
 
 ### 3.1 Run the "Acceptance Decisions Test Sub-Experiment software" with provided data:
   1. Clone the repository
-  2. Install the requested requirements as detailed section ** Requirements **
+  2. Install the requested requirements as detailed in section ** Requirements **
   3. Upload the the provided data to the MongoDB database using the following commands:
      
      `mongoimport --type csv -d test_1 -c trains --headerline --columnsHaveTypes --file ./database/trains.csv`
@@ -45,7 +45,7 @@ This repository contains the software application built to validate the efficacy
 
 ### 3.2 Run the "Rejection Decisions Test Sub-Experiment software" with provided data:
   1. Clone the repository
-  2. Install the requested requirements as detailed section ** Requirements **
+  2. Install the requested requirements as detailed in section ** Requirements **
   3. Upload the the provided data to the MongoDB database using the following commands:
      
      `mongoimport --type csv -d test_2 -c trains --headerline --columnsHaveTypes --file ./database/trains.csv`
