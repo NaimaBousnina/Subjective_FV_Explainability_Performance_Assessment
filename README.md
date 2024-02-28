@@ -19,13 +19,19 @@ This repository contains the software application built to validate the efficacy
 
 ## 3- Run the software application
 
-   This repository includes the source code and data to run the software application for both acceptance (True Acceptance and False acceptance) and rejection (True Rejection and False Rejection) face veriofication decions, notably:
+   This repository includes the source code and data to run the software application for both acceptance i.e., True Acceptance and False acceptance and rejection i.e., True Rejection and False Rejection face veriofication decions, notably:
 - [Acceptance Decisions Test Sub-Experiment](https://github.com/NaimaBousnina/Subjective_FV_Explainability_Performance_Assessment/tree/main/Acceptance_Decisions_Test_Sub-Experiment)
 - [Rejection Decisions Test Sub-Experiment](https://github.com/NaimaBousnina/Subjective_FV_Explainability_Performance_Assessment/tree/main/Rejection_Decisions_Test_Sub-Experiment)
 
-### 3.1 Run the `Acceptance Decisions Test Sub-Experiment` software:
+### 3.1 Run the Acceptance Decisions Test Sub-Experiment software with provided data:
   1. Clone the repository
   2. Install the requested requirements as detailed section ** Requirements **
+  3. Upload the the provided data to the MongoDB database using the following commands:
+     ```bash
+mongoimport --type csv -d test_1 -c trains --headerline --columnsHaveTypes --file ./database/trains.csv
+
+mongoimport --type csv -d test_1 -c pairs --headerline --columnsHaveTypes --file ./database/random_pairs.csv
+```
    
    
 
