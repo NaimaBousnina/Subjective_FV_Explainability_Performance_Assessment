@@ -33,12 +33,12 @@ This repository contains the software application built to validate the efficacy
 
   4. Launch the software application
 
-      #### --- In localhost: ---
+      #### - In localhost:
      
      - Start a mongosh session: `mongosh`
      -  initiate the web server: sudo node app.js
 
-     #### --- In Apache2 web server: ---
+     #### -In Apache2 web server: 
    
      You can refer to [How to Host a Node.js Website With Apache on Ubuntu](https://linuxnightly.com/how-to-host-a-node-js-website-with-apache-on-ubuntu/?utm_content=cmp-true) to host the software application in 
    Apache2 web server and run it online.
