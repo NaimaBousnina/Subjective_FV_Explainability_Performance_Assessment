@@ -5,7 +5,7 @@
 <table>
 
  ## 1. Introduction
-This repository contains the source code and data of a software application used to validate the efficacy of a subjective explainability performance assessment protocol for visual explanations-based face verification explainability. The proposed protocol encompasses a set of key specifications designed to efficiently collect the subjects’ preferences and estimate explainability performance scores, facilitating the relative assessment of the explainability tools. This protocol aims to address the current gap in evaluating the effectiveness of visual explanation-based FV explain-ability tools, providing a structured approach for assessing their performance and comparing with alternative tools. 
+This repository contains the source code and data of the software application built to validate the efficacy of a subjective explainability performance assessment protocol for visual explanations-based face verification explainability. The proposed protocol encompasses a set of key specifications designed to efficiently collect the subjects’ preferences and estimate explainability performance scores, facilitating the relative assessment of the explainability tools generating visual explanations. This protocol aims to address the current gap in evaluating the effectiveness of visual explanation-based FV explainability tools, providing a structured approach for assessing their performance and comparing with alternative tools. 
 
  ## 2. Requirements
 - Install Python 3.x
