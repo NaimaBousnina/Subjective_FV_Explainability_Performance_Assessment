@@ -18,7 +18,7 @@ This repository contains the software application built to validate the efficacy
 
 ## 3- Run the software application
 
-   This repository includes the source code and data to run the software application for both acceptance i.e., True Acceptance and False acceptance, and rejection i.e., True Rejection and False Rejection face veriofication decions, notably:
+   This repository includes the source code and data to run the software application for both acceptance i.e., True Acceptance and False Acceptance, and rejection i.e., True Rejection and False Rejection face veriofication decions, notably:
 - [Acceptance Decisions Test Sub-Experiment](https://github.com/NaimaBousnina/Subjective_FV_Explainability_Performance_Assessment/tree/main/Acceptance_Decisions_Test_Sub-Experiment)
 - [Rejection Decisions Test Sub-Experiment](https://github.com/NaimaBousnina/Subjective_FV_Explainability_Performance_Assessment/tree/main/Rejection_Decisions_Test_Sub-Experiment)
 
