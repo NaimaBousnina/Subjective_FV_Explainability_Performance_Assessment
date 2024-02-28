@@ -27,11 +27,12 @@ This repository contains the software application built to validate the efficacy
   1. Clone the repository
   2. Install the requested requirements as detailed section ** Requirements **
   3. Upload the the provided data to the MongoDB database using the following commands:
+     
      ```bash
-mongoimport --type csv -d test_1 -c trains --headerline --columnsHaveTypes --file ./database/trains.csv
+     mongoimport --type csv -d test_1 -c trains --headerline --columnsHaveTypes --file ./database/trains.csv
 
-mongoimport --type csv -d test_1 -c pairs --headerline --columnsHaveTypes --file ./database/random_pairs.csv
-```
+     mongoimport --type csv -d test_1 -c pairs --headerline --columnsHaveTypes --file ./database/random_pairs.csv
+     ```
    
    
 
