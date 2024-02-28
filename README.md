@@ -17,11 +17,11 @@ This repository contains the software application built to validate the efficacy
     You can refer to [How to Host a Node.js Website With Apache on Ubuntu](https://linuxnightly.com/how-to-host-a-node-js-website-with-apache-on-ubuntu/?utm_content=cmp-true) to host the software application in 
    Apache2 web server.
 
-   ## Run the software application
+## Run the software application
 
    This repository includes the source code and data to run the software application for both acceptance (True Acceptance and False acceptance) and rejection (True Rejection and False Rejection) face veriofication decions, notably:
-- [Acceptance Decisions Test Sub-Experiment](https://httpd.apache.org/)
-- [Rejection Decisions Test Sub-Experiment](https://httpd.apache.org/)
+- [Acceptance Decisions Test Sub-Experiment](https://github.com/NaimaBousnina/Subjective_FV_Explainability_Performance_Assessment/tree/main/Acceptance_Decisions_Test_Sub-Experiment)
+- [Rejection Decisions Test Sub-Experiment](https://github.com/NaimaBousnina/Subjective_FV_Explainability_Performance_Assessment/tree/main/Rejection_Decisions_Test_Sub-Experiment)
    
    
 
