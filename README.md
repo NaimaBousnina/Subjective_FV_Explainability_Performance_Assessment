@@ -43,6 +43,26 @@ This repository contains the software application built to validate the efficacy
      You can refer to [How to Host a Node.js Website With Apache on Ubuntu](https://linuxnightly.com/how-to-host-a-node-js-website-with-apache-on-ubuntu/?utm_content=cmp-true) to host the software application in 
      Apache2 web server and run it online.
 
+### 3.2 Run the Rejection Decisions Test Sub-Experiment software with provided data:
+  1. Clone the repository
+  2. Install the requested requirements as detailed section ** Requirements **
+  3. Upload the the provided data to the MongoDB database using the following commands:
+     
+     `mongoimport --type csv -d test_2 -c trains --headerline --columnsHaveTypes --file ./database/trains.csv`
+
+     `mongoimport --type csv -d test_2 -c pairs --headerline --columnsHaveTypes --file ./database/random_pairs.csv`
+
+  4. Launch the software application
+
+      #### - In localhost:
+     
+     - Start a mongosh session: `mongosh`
+     - Initiate the web server: `sudo node app.js`
+
+     #### -In Apache2 web server: 
+   
+     You can refer to [How to Host a Node.js Website With Apache on Ubuntu](https://linuxnightly.com/how-to-host-a-node-js-website-with-apache-on-ubuntu/?utm_content=cmp-true) to host the software application in 
+     Apache2 web server and run it online.
    
    
 
