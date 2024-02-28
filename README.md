@@ -12,7 +12,7 @@ This repository contains the software application built to validate the efficacy
 
  - Node.js JavaScript runtime environment: [Node.js Download](https://nodejs.org/en/)
  - MongoDB database management program: [MongoDB database Download](https://www.mongodb.com/docs/manual/administration/install-community/)
- - Apache2 web server [Optional] (if the software application will run online): [Apache2 Download](https://httpd.apache.org/)
+ - Apache2 web server [Optional] (if the software application will be run online): [Apache2 Download](https://httpd.apache.org/)
 
     
 
