@@ -23,7 +23,7 @@ This repository contains the software application built to validate the efficacy
 - [Acceptance Decisions Test Sub-Experiment](https://github.com/NaimaBousnina/Subjective_FV_Explainability_Performance_Assessment/tree/main/Acceptance_Decisions_Test_Sub-Experiment)
 - [Rejection Decisions Test Sub-Experiment](https://github.com/NaimaBousnina/Subjective_FV_Explainability_Performance_Assessment/tree/main/Rejection_Decisions_Test_Sub-Experiment)
 
-  ### To run the `Acceptance Decisions Test Sub-Experiment` software:
+  ##### To run the `Acceptance Decisions Test Sub-Experiment` software:
   1. Clone the repository
   2. Install the requested requirements as detailed section ** Requirements **
    
